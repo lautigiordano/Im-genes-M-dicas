@@ -1,6 +1,6 @@
 theta = 0:5:359; R = 2;
 %Ej a. 
-%Perdon por esto, seguro con un for el programa se acorta un 66% :p
+%Perdon por esto, seguro con un for el programa se acorta bastante :p
 N=64; p=2*N;
     [A1p, b1p, x1p] = paralleltomo(N,theta,p);
     [A1f, b1f, x1f] = fanbeamtomo(N,theta,p,R);
